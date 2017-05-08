@@ -1,6 +1,8 @@
 ysblogbundle
 ============
 
+Inside YSUserBundle, IvoryCKEditorBundle.
+
 ##### 1. Add to parameters.yml
 ```
 parameters:
@@ -46,7 +48,8 @@ $ composer update
 ```
  $bundles = [
      ...
-     new YS\BlogBundle\YSBlogBundle()
+     new YS\BlogBundle\YSBlogBundle(),
+     new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
  ];
 ```
 ##### 7. Create schema
@@ -59,5 +62,6 @@ imports:
     ...
     - { resource: "@YSBlogBundle/Resources/config/config.yml" }
 ```
+##### 9. Add to src - https://github.com/yaroslavsolokha/YSBlogBundle
         
 

@@ -1,5 +1,4 @@
 /.idea/
-/.idea/workspace.xml
 /app/config/parameters.yml
 /build/
 /phpunit.xml
