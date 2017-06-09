@@ -41,6 +41,9 @@ $ bin/console doctrine:database:create
 ```
 ##### 4. Composer update
 ```
+$ cd server
+$ docker exec -it php /bin/sh
+$ cc ysblogbundle
 $ composer update
 ```
 ##### 5. Setup YSUserBundle - https://github.com/yaroslavsolokha/YSUserBundle
