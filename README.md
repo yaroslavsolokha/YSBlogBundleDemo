@@ -65,6 +65,12 @@ imports:
     ...
     - { resource: "@YSBlogBundle/Resources/config/config.yml" }
 ```
-##### 9. Add to src - https://github.com/yaroslavsolokha/YSBlogBundle
+##### 9. Add to security.yml
+``` 
+access_control:
+...
+    - { path: ^/blog/new, role: ROLE_USER }
+```
+##### 10. Add to src - https://github.com/yaroslavsolokha/YSBlogBundle
         
 
