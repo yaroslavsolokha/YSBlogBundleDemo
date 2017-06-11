@@ -3631,12 +3631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaroslavsolokha/YSUserBundle.git",
-                "reference": "f5317a4022767d729c0e062a5f259a5f1827bbcc"
+                "reference": "c16a17d2f227011f626d7a3774e8407b9368b41a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaroslavsolokha/YSUserBundle/zipball/f5317a4022767d729c0e062a5f259a5f1827bbcc",
-                "reference": "f5317a4022767d729c0e062a5f259a5f1827bbcc",
+                "url": "https://api.github.com/repos/yaroslavsolokha/YSUserBundle/zipball/c16a17d2f227011f626d7a3774e8407b9368b41a",
+                "reference": "c16a17d2f227011f626d7a3774e8407b9368b41a",
                 "shasum": ""
             },
             "require": {
@@ -3674,7 +3674,7 @@
                 "source": "https://github.com/yaroslavsolokha/YSUserBundle/tree/master",
                 "issues": "https://github.com/yaroslavsolokha/YSUserBundle/issues"
             },
-            "time": "2017-06-09 22:46:01"
+            "time": "2017-06-11 22:08:35"
         }
     ],
     "packages-dev": [

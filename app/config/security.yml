@@ -41,3 +41,5 @@ security:
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/, role: ROLE_ADMIN }
         - { path: ^/blog/new, role: ROLE_USER }
+        - { path: ^/blog/edit, role: ROLE_USER }
+        - { path: ^/blog/delete, role: ROLE_USER }
