@@ -1,4 +1,4 @@
-ysblogbundle
+YSBlogBundle
 ============
 
 Inside YSUserBundle, IvoryCKEditorBundle.
@@ -31,7 +31,7 @@ $ bin/console doctrine:database:create
     ...
     "ys/user-bundle" : "dev-master",
     "sonata-project/user-bundle": "dev-add_support_for_fos_user2"
-    },
+},
 "repositories" : [
 ...
 {
@@ -52,7 +52,7 @@ $ composer update
  $bundles = [
      ...
      new YS\BlogBundle\YSBlogBundle(),
-     new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+     new Ivory\CKEditorBundle\IvoryCKEditorBundle()
  ];
 ```
 ##### 7. Create schema

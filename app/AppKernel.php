@@ -29,7 +29,7 @@ class AppKernel extends Kernel
             new Ivory\OrderedFormBundle\IvoryOrderedFormBundle(),
             new YS\UserBundle\YSUserBundle(),
             new YS\BlogBundle\YSBlogBundle(),
-            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle()
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
